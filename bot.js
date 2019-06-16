@@ -82,15 +82,15 @@ m.sendMessage(args)
      const embed = new Discord.RichEmbed() 
          .setColor("#00FF00")
          .setThumbnail(message.author.avatarURL)
-         .setDescription(`**Help|هيلب
+         .setDescription(`**Gamers
   
-       $obc | لأرسال برود كاست للكل  
+       $bc1 | لأرسال برود كاست للكل  
 
-       $bc  |  لأرسال برود كاست للأونلاين
+       $bc2  |  لأرسال برود كاست للأونلاين
 
-       $adminbc | برودكاست عادي
+       $bc3 | برودكاست عادي
 
-       $setwitch   | لعض ويتش حق بوت
+       $st  | لعض ويتش حق بوت
        ** `)
    message.author.sendEmbed(embed)
    
